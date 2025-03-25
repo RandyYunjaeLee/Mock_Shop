@@ -37,9 +37,9 @@
 		name = '%' + name + '%';
 	}
 	
-	String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=db_rlopez;";
-	String uid = "rlopez";
-	String pw = "31148588";
+	String url = "jdbc:sqlserver://Somewebsite.com:1433;DatabaseName=db_fill-in;";
+	String uid = "fill-in";
+	String pw = "fill-in";
 	NumberFormat currFormat = NumberFormat.getCurrencyInstance();
 
 	try

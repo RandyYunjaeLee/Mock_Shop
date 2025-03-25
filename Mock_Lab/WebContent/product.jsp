@@ -19,9 +19,9 @@ String productId = request.getParameter("id");
 
 //"<tr><td><a href=\"addCart.jsp?id=" + rst.getInt(1) + "&name=" + rst.getString(2) + "&price=" + rst.getDouble(3) + "\">Add to Cart</a></td>
 String sql = "SELECT * FROM product WHERE productId = (?)";
-String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=db_rlopez;";
-String uid = "rlopez";
-String pw = "31148588";
+String url = "jdbc:sqlserver://Somewebsite.com:1433;DatabaseName=db_fill-in;";
+String uid = "fill-in";
+String pw = "fill-in";
 NumberFormat currFormat = NumberFormat.getCurrencyInstance();
 
 try

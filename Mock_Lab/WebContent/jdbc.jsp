@@ -13,7 +13,7 @@ Public methods:
 <%!
 	// TODO: Modify database/user connection info
 	// User id, password, and server information
-	private String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=db_fill-in;";
+	private String url = "jdbc:sqlserver://Somewebsite.com:1433;DatabaseName=db_fill-in;";
 	private String uid = "fill-in";
 	private String pw = "fill-in";
 

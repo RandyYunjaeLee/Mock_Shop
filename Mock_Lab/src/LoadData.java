@@ -5,7 +5,6 @@ import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
 
@@ -23,9 +22,9 @@ public class LoadData
 	
 	public static void loadData() throws Exception
 	{		
-		String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=*******;";
-		String uid = "*****";
-		String pw = "*******";
+		String url = "jdbc:sqlserver://SomeWebsite.com:1433;DatabaseName=*******;";
+		String uid = "fill-in";
+		String pw = "fill-in";
 		
 		System.out.println("Connecting to database.");
 
