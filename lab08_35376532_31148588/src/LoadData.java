@@ -23,9 +23,9 @@ public class LoadData
 	
 	public static void loadData() throws Exception
 	{		
-		String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=db_rlopez;";
-		String uid = "rlopez";
-		String pw = "31148588";
+		String url = "jdbc:sqlserver://sql04.ok.ubc.ca:1433;DatabaseName=*******;";
+		String uid = "*****";
+		String pw = "*******";
 		
 		System.out.println("Connecting to database.");
 
@@ -46,7 +46,6 @@ public class LoadData
 	            String command = scanner.next();
 	            if (command.trim().equals(""))
 	                continue;
-	            //System.out.println(command);        // Uncomment if want to see commands executed
 	            try
 	            {
 	            	stmt.execute(command);
